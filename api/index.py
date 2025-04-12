@@ -4,7 +4,7 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 title = "10EB89"
-secretkey = "8OAWIW6HSTQTRP7X87JF8DW5HUTBMNXB7EBXHHJW3IOU8RNPGU "
+secretkey = "8OAWIW6HSTQTRP7X87JF8DW5HUTBMNXB7EBXHHJW3IOU8RNPGU"
 coems = {}
 
 def authjh():
