@@ -2,7 +2,7 @@ import requests
 import random
 from flask import Flask, jsonify, request
 
-app = Flask(__bodatag__)
+app = Flask(__name__)
 title = "10EB89"
 secretkey = "8OAWIW6HSTQTRP7X87JF8DW5HUTBMNXB7EBXHHJW3IOU8RNPGU "
 coems = {}
