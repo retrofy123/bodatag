@@ -6,7 +6,7 @@ class GameInfo():
     def __init__(self):
         self.TitleId : str = "4E738"
         self.SecretKey : str = "9R4T18WTE83NNTUKBHX6YDDXO6QBHOBUEG1GEU5C16UJNNTNUS"
-        self.ApiKey : str = "8c599349914db92630b8962ebab8a2a2"
+        self.ApiKey : str = "996ee0b22c1e6bf7e5a8811c56cd46a9"
 
     def GetAuthHeaders(self) -> dict:
         return {
@@ -25,7 +25,7 @@ muteCache : dict = {}
 
 settings.TitleId = "4E738"
 settings.SecretKey = "9R4T18WTE83NNTUKBHX6YDDXO6QBHOBUEG1GEU5C16UJNNTNUS"
-settings.ApiKey = "8c599349914db92630b8962ebab8a2a2"
+settings.ApiKey = "996ee0b22c1e6bf7e5a8811c56cd46a9"
 
 def ReturnFunctionJson(data, funcname, funcparam = {}):
     rjson = data["FunctionParameter"]
@@ -298,4 +298,4 @@ def photonauthenticaet():
 
 if __name__ == "__main__":
 
-    app.run("0.0.0.0", 8085)
+    app.run("0.0.0.0", 8089)
