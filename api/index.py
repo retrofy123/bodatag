@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 titleider = "17584E"
 secretkey = "YH3NPYUXD9F748PN9UK7C8XEB574QAIXNO56TTD3WXETABJI6M"
-ApiKey = "OC|9624600534305832|996ee0b22c1e6bf7e5a8811c56cd46a9"
+ApiKey = "996ee0b22c1e6bf7e5a8811c56cd46a9"
 
 
 def GetAuthHeaders() -> dict:
