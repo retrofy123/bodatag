@@ -8,7 +8,7 @@ import base64
 class GameInfo:
     def __init__(self):
         self.TitleId: str = "17584E" # Playfab Title Id
-        self.SecretKey: str = YH3NPYUXD9F748PN9UK7C8XEB574QAIXNO56TTD3WXETABJI6M"" # Playfab Secret Key
+        self.SecretKey: str = "YH3NPYUXD9F748PN9UK7C8XEB574QAIXNO56TTD3WXETABJI6M" # Playfab Secret Key
         self.ApiKey: str = "OC|9945356918919360|a97bfd78404632b0933ba0200e74fb94" # App Api Key
 
     def get_auth_headers(self):
